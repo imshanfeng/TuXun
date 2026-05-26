@@ -1,0 +1,95 @@
+# ===========================
+# Dependencies
+# ===========================
+node_modules/
+.pnp
+.pnp.js
+
+# ===========================
+# Build Output
+# ===========================
+dist/
+dist-ssr/
+build/
+out/
+
+# ===========================
+# Cache
+# ===========================
+.cache/
+.parcel-cache/
+.turbo/
+.vite/
+*.tsbuildinfo
+
+# ===========================
+# Test & Coverage
+# ===========================
+coverage/
+.nyc_output/
+/cypress/videos/
+/cypress/screenshots/
+/playwright-report/
+/test-results/
+
+# ===========================
+# Logs
+# ===========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ===========================
+# Environment Variables
+# ===========================
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+# 保留示例文件
+!.env.example
+
+# ===========================
+# OS Files
+# ===========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ===========================
+# Editor & IDE
+# ===========================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.vim
+
+# ===========================
+# Package Manager
+# ===========================
+.npm/
+.yarn/
+!.yarn/releases
+!.yarn/plugins
+.pnpm-store/
+
+# ===========================
+# Misc
+# ===========================
+*.local
+*.tgz
+*.zip
+.eslintcache
+.stylelintcache
